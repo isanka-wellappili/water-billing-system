@@ -1,0 +1,120 @@
+              
+   body {                
+    background-image: url('img/image.png');   /* your image */
+    background-size: cover;              /* make it cover the full screen */
+    background-position: center;        
+    background-repeat:repeat;       
+    height: 100vh;                       
+    /*margin: 0;                          
+    display: flex;                      
+    justify-content: center;             
+    align-items: center;                
+    font-family: Arial, sans-serif;  */    
+}
+     
+
+
+#login {
+    background-color:rgba(65, 106, 181, 0.877);
+    width:20%;
+    padding:50px;
+    margin:120px auto;
+    box-shadow:10px 10px 5px rgb(15, 15, 18);
+    border-radius:4px;
+    text-align:center;
+}
+    
+#btn{
+background-color: blue;
+text-align: center;
+align-items: center;
+font-size: large;
+padding:5px;
+
+}
+#header{
+    display: flex;
+    width: 100%;
+	float:left; 
+    
+    font-size: 20px;
+    height:50px;
+    border:3px black;
+    border-radius:5px;
+    box-shadow:0 0 100px rgb(242, 244, 246);
+    color: rgb(249, 242, 242);
+    text-align: center;
+    align-items:center;
+    gap: 150px;
+    
+}
+#h1{
+    
+    height:150px;
+    text-align: center;
+    font-size:40px;
+    color: rgb(244, 237, 237);
+    border:3px solid rgba(0,0,0,0);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    box-shadow:0 0 18px rgba(0, 0, 0, 0.889);
+    margin-top:2%;
+
+    border-color: black;
+
+
+}
+
+ #addd {
+    width: 200px;
+    width:20%;
+    padding:40px;
+    margin:120px auto;
+    box-shadow:10px 10px 5px rgb(15, 15, 18);
+    border-radius:4px;
+    text-align:center;
+    font-size: 22px;
+    color: #cc1b1b;
+ }
+
+#bttn {
+
+text-align: center;
+font-weight: bold;
+font-size:22px;
+padding:5px;
+}
+    
+    
+
+
+#view{
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 100px;
+    align-items: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #a9a7a7;
+}
+
+p{
+    text-align: center;
+    color: #e91010;
+    font-size: 22px;
+    font-weight:bold;
+}
